@@ -13,11 +13,10 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: react-app
-  environment: "Reactapp-env"
+  env: "Reactapp-env"
   bucket_name: "elasticbeanstalk-us-east-1-814971353988"
   bucket_path: "react-app"
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: "$AWS_SECRET_KEY"
-  edge: true
   on:
     branch: main
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: "$AWS_SECRET_KEY"
