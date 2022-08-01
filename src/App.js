@@ -9,6 +9,9 @@ function App() {
         <p>
           Hola! Ya funciona tu entorno!
         </p>
+	<p>
+	  Este es un cambio sencillo
+	</p>
         <a
           className="App-link"
           href="https://reactjs.org"
